@@ -1,0 +1,107 @@
+/* Visualización para smartphones */
+@media only screen and (min-width : 375px)
+and (max-width : 812px)  {
+breakpoint  {
+max-width: 100%;
+}
+}
+/* Visualización para tablets */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+breakpoint  {
+max-width: 48%;
+}
+}
+/* Visualización para grandes dispositivos*/
+@media only screen
+and (min-width : 823px)and (max-width : 1824px)  {
+breakpoint  {
+max-width: 24%;
+}
+}
+/*Estilos del cuerpo página*/
+body { background-color: #12CEBE ;
+ font-family: Tahoma, Geneva, sans-serif;
+ color: white;
+ text-align: center;
+ }
+ /*Estilos para las imagenes de la página de inicio*/
+ img.img1{
+  width: 150px; height: 150px;
+}
+
+clear{
+	height:1200px;
+	
+}
+
+/*Estilos para las imagenes y parrafos*/
+table{
+	width:100%
+}
+
+ /*Estilos para las imagenes de la página de servicios*/
+img.img2{
+  height: 200px;
+}
+
+ /*Estilos para el menu*/
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+	  display: inline-block;
+  float: absolute;
+   color: white;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color : #12CEBE ;
+}
+
+ a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ /*Estilos para las imagenes parrafos*/
+ .div-1 {
+	 text-align: left;
+	 color: white;
+}
+
+ .div-2 {
+	 text-align: center;
+	 color: white;
+}
+
+/*Estilos del pie de página*/
+footer{
+  background: #1D8C82;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+
+footer p{
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 15pt;
+}
